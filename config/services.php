@@ -36,9 +36,19 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => 'your-github-app-id',
-        'client_secret' => 'your-github-app-secret',
-        'redirect' => 'http://your-callback-url',
+        'client_id' => '2019400374966972',
+        'client_secret' => '47f3e795503540ef706989d5838c1362',
+        'redirect' => 'http://localhost:8000/auth/facebook/callback',
+    ],
+    'twitter' => [
+        'client_id' => 'Au6QQigV8WvvNsIBDC6XEZj3C',
+        'client_secret' => 'ZRnXLp0Z0S0N85TDngfe3aYWsqlszdudFYfpqGk1pHf5CkQuWt',
+        'redirect' => 'http://localhost:8000/auth/twitter/callback',
+    ],
+    'google' => [
+        'client_id' => '234416891233-6h4a2cbm2d0sdbtla58slqtmcbsv774p.apps.googleusercontent.com',
+        'client_secret' => 'lZTubY6EGd2OyA8ll12hnKaH',
+        'redirect' => 'http://localhost:8000/auth/googe/callback',
     ],
 
 ];
